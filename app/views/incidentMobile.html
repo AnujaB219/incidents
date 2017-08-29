@@ -1,0 +1,22 @@
+<img class = "logo" src="vicroads_logo_rgb_hr_2.jpeg"></div>
+<button id="listButton" class="listButtonClass" ng-click="toggleShowList()"> {{ buttonText }} </button>
+
+
+<div id="listInfo" ng-show="listVisible">
+    <div ng-repeat="incident in visibleIncidents">
+      <div class="list {{ incident.id }}" > {{ incident.list_title }}
+        <p> {{ incident.list_subtitle }}       , {{ incident.list_extra }}. </p>
+      </div>
+    </div>
+</div>
+
+<style>
+  #listInfo {
+    position:absolute;
+    top:120px;
+    left:10px;
+    width:300px;
+    height:670px;
+    overflow-x:scroll;
+  }
+</style>

@@ -1,0 +1,75 @@
+body {
+  font: bold 12px Arial;
+  background-color: #E0E1E7;
+}
+#map{
+  position:absolute;
+  height:100%;
+  width:100%;
+  margin: 0 0 0 0px ;
+  /*    box-shadow: 3px 3px 10px gray;*/
+}
+#iwContainer {
+  margin-bottom: 10px;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+.logo{
+  height: 30px;
+  width: 70px;
+}
+#iwContainer .iwTitle {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  padding: 10px;
+  background-color:#0c439b;
+  color: white;
+  margin: 0;
+  border-radius: 0 0 0 0;
+}
+#iwContainer .iwContent {
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 400;
+  margin-right: 1px;
+  padding: 0 0 0 0;
+  max-height: 140px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.iwSubTitle {
+  font-size: 16px;
+  font-weight: 700;
+  padding: 5px 0;
+}
+#listInfo {
+  position:absolute;
+  top:80px;
+  left:10px;
+  width:300px;
+  height:670px;
+  overflow-x:scroll;
+}
+#listInfo .list {
+  background-color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  font-weight: 700;
+  padding:5px 5px;
+  margin:5px 0;
+}
+.listButtonClass{
+  position: absolute;
+  background-color:#bdd0ef;
+  top:70px;
+  left:10px;
+  width:120px;
+  height: 40px;
+  font-size: 12px;
+  font-weight: 500;
+  padding:5px 5px;
+  margin:2px 0;
+}
+p{
+  font-size: 12px;
+  font-weight: 500;
+}

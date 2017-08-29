@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns:ng="http://angularjs.org/">
+
+<head>
+  <meta charset="utf-8" />
+  <title>VicRoads Traffic Incidents</title>
+  <link rel="stylesheet" href="app.css" />
+  <script src="https://code.angularjs.org/1.3.14/angular.js"></script>
+  <script src="https://code.angularjs.org/1.3.16/angular-route.js"></script>
+  <script src="https://code.angularjs.org/1.3.16/angular-route.min.js."></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA35q28L75cIRQdqe7UwlB7bLvynrfraHk"></script>
+  <script type='text/javascript' src='app.js'></script><!--script-->
+  <script type='text/javascript' src='js/services/vicRoadsIncidents.js'></script><!--script-->
+  <script type='text/javascript' src='js/controllers/MainController.js'></script><!--script-->
+</head>
+
+<body ng-app="mapApp">
+<div ng-controller="MainController">
+  <div id="map"></div>
+  <div ng-view></div>
+
+</div>
+</body>
+</html>
